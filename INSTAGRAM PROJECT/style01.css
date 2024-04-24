@@ -1,0 +1,123 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.conainer {
+  height: 900px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid rgb(180, 178, 178) 2px;
+}
+
+.header-text {
+  font-family: Old English Text MT;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 0px;
+  color: black;
+  font-size: 60px;
+}
+
+.text0011 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+  color: rgb(117, 117, 117);
+}
+
+.input01 {
+  background-color: rgb(63, 139, 252);
+  opacity: 0.7;
+  color: white;
+  font-size: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 100px;
+  padding-left: 120px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: none;
+}
+
+.input01:hover {
+  text-decoration: underline;
+}
+
+.input-img {
+  width: 40px;
+  margin-top: -42px;
+  z-index: 100;
+  margin-left: -220px;
+  border-radius: 50%;
+}
+
+.or {
+  color: grey;
+  font-weight: 900;
+}
+
+.input02 {
+  padding-left: 10px;
+  background-color: rgb(245, 245, 245);
+  color: black;
+  display: block;
+  opacity: 10;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding-right: 230px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  border: solid 0.5px darkgrey;
+}
+
+.update-info {
+  font-size: 20px;
+  text-align: center;
+}
+
+.learn-more {
+  color: rgb(25, 166, 212);
+  cursor: pointer;
+}
+
+.learn-more:hover {
+  text-decoration: underline blue;
+}
+
+.signing {
+  font-size: 18px;
+  font-weight: 100;
+  row-gap: 100px;
+  color: rgb(83, 83, 83);
+  text-align: center;
+}
+
+.final {
+  padding-left: 155px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 155px;
+  border-radius: 10px;
+  border: none;
+  opacity: 0.8;
+  background-color: rgb(63, 139, 252);
+  color: white;
+  font-size: 20px;
+  margin-left: 30px; 
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.final:hover {
+  text-decoration: underline white;
+}

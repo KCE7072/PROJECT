@@ -1,0 +1,98 @@
+body {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  background-color: rgb(238, 238, 238)
+}
+
+.head-text {
+  font-size: 80px;
+  color: blue;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.con {
+  background-color: white;
+  width: 800px;
+  display: flex;
+  box-shadow: 0px 0px 10px 1px rgb(109, 108, 108);
+  /* justify-content: center; */
+  align-items: center;
+  height: 600px;
+  flex-direction: column;
+}
+
+.sub-text {
+  cursor: pointer;
+  font-size: 43px;
+  margin-top: 20px;
+}
+
+.text-p {
+  padding-top: 20px;
+  padding-right: 290px;
+  font-size: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.check {
+  width: 27px;
+  cursor: pointer;
+  height: 27px;
+  position: absolute;
+  top: 540px;
+  display: inline-block;
+  margin-left: -680px;
+}
+
+.credentials {
+  margin-top: -40px;
+  position: absolute;
+  top: 580px;
+  margin-left: -645px;
+  font-size: 27px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.submit-button {
+  height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: blue;
+  position: absolute;
+  cursor: pointer;
+  top: 630px;
+  margin-left: -480px;
+  color: white;
+  border: none;
+  box-shadow: 0px 0px 10px 1px darkgrey;
+  border-radius: 20px;
+  margin-top: -30px;
+  width: 300px;
+  transition: opacity 0.45s;
+}
+
+.submit-button:hover {
+  opacity: 0.7;
+}
+
+.forgot {
+  color: blue;
+  font-size: 34px;
+  margin-top: 160px;
+  margin-left: 260px;
+  cursor: pointer;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}

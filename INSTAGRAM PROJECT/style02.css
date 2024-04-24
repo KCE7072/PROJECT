@@ -1,0 +1,155 @@
+Body {
+  height: 1400px;
+  margin-top: 80px;
+}
+
+.header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  background-color: white;
+  display: flex;
+  border: 1px solid darkgrey;
+  width: 100%;
+  margin-top: -10px;
+  height: 100px;
+}
+
+.header-text01 {
+  margin-left: 12%;
+  font-family: Matura MT Script Capitals;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  color: black;
+  font-size: 45px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.div01 {
+  border: grey solid 2px;
+  height: 1100px;
+  width: 800px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+
+.header-text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 45px;
+  text-align: center;
+}
+
+.t01 {
+  font-size: 27px;
+  margin-left: 10px;
+}
+
+.t02 {
+  font-size: 26px;
+  margin-left: 10px;
+}
+
+ul {
+  font-size: 25px;
+}
+
+span {
+  color: blue;
+  cursor: pointer;
+}
+
+span:hover {
+  text-decoration: underline blue;
+}
+
+input {
+  padding: 20px 200px;
+  margin-left: 15%;
+  background-color: rgb(34, 119, 247);
+  color: white;
+  font-size: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-top: 20px;
+  font-size: 20px;
+  transition: opacity 0.45s;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.phone {
+  text-align: center;
+  color: rgb(34, 119, 247);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.phone:hover {
+  text-decoration: underline rgb(34, 119, 247);
+}
+
+.s02 {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0px 0px 10px grey;
+  width: 100%;
+  padding-left: 300px;
+  flex-direction: row;
+}
+
+.for01 {
+  margin-left: -500px;
+}
+
+.s02 p {
+  font-size: 30px;
+  cursor: pointer;
+  padding-left: 52px;
+  text-align: center;
+  margin-top: -55px;
+}
+
+.s02 div {
+  displaY: block;
+  margin-top: 100px;
+  /* margin-left: -2000px; */
+}
+
+.id {
+  border: none;
+  padding: 15px 20px;
+  z-index: 200;
+  padding-left: -1000px;
+  margin-left: -400px;
+  margin-right: 1000px;
+  margin-top: -100px;
+  font-size: 25px;
+}
+
+.copy {
+  margin-left: -800px;
+  padding-top: 5px;
+}
+
+.div002 {
+  margin-left: -1000px;
+}
